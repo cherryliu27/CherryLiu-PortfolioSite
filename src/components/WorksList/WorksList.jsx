@@ -21,7 +21,7 @@ export default function WorksList(){
         <div className="works-container" id="works">
             <div className="works container-70">
                 <h2>Works</h2>
-                <p>View the details of my individual works below!</p>
+                <p className="work-desc">View the details of my individual works below!</p>
                 <div className="works-collection">
                 {
                     //loop over each project/work component

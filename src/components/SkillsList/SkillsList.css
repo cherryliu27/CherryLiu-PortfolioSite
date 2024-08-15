@@ -14,11 +14,11 @@
 
 .skills-desc{
     font-family: "Roboto", sans-serif;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-top: 14px;
     text-align:center;
     color: #494949;
-    margin-bottom: 20px;
+    margin-bottom: 23px;
 }
 
 
