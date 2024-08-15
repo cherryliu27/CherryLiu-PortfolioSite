@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container-70{
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+h1, h2{
+  font-family: "Abril Fatface", serif;
+}
+
+
+
+.projectName{
+  font-size: 50px;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 35px;
+  margin-top: 60px;
+}
+
+.project{
+  padding-bottom: 60px;
+}
+
+.project h2{
+  color: #552854;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.project p{
+color: #494949;
+padding: 0;
+margin: 0;
+font-weight: 300;
+}
+
+.project-subhead{
+  margin-top: 35px;
+}
+.project-text{
+  margin-top: 60px;
+}
+
+.project-img-container {
+  width: 100%;
+  overflow: hidden; 
+  position: relative;
+  display : flex;
+  justify-content: center; 
+}
+
+
+
+.project-img-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  clip-path: polygon(
+    0% 0%,   /* Top-left corner */
+    90% 0%,  /* Top-right corner chipped */
+    100% 10%, /* Top-right corner chipped */
+    100% 100%, /* Bottom-right corner */
+    10% 100%, /* Bottom-left corner chipped */
+    0% 90%   /* Bottom-left corner chipped */
+  );
+  margin: 0 auto;
+}
+
+.github-link a, .github-link a:visited {
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+
+.github-link {
+  padding: 10px 35px;
+  background-color:#552854;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+}
+
+.github-link:hover{
+  background-color: #DD549A;
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.works p:nth-of-type(1){
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.works-container{
+    padding-bottom: 75px;
+}
+
+
+.works-collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.works h2{
+    font-size: 50px;
+    color: #552854;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+.work{
+    background-color: #fff;
+    border: 1px solid #929292;
+    height: 180px;
+    width: 315px;
+    object-fit: contain; 
+}
+
+.work:hover{
+    border: 3px solid #552854;
+    transition: 0.2s
+
+}

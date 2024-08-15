@@ -1,0 +1,89 @@
+nav{
+    background-color: white;
+}
+
+.navbar .container-fluid{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar{
+    background-color: #FFF4EC
+}
+
+.navbar-brand, .nav-link{
+    font-family: "Abril Fatface", serif;
+}
+
+.navbar-brand, .navbar-brand:visited{
+    color: #552854;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 10px 0;
+    padding-left: 60px;
+}
+
+.navbar-brand:hover{
+    color:#FEA502;
+    transition:0.5s;
+}
+
+.navbar{
+    border-bottom: 3px #552854 solid;
+    border-top: 1px #552854 solid;
+}
+
+.nav-link{
+    color: #552854;
+    border-left: 2px solid #552854;
+    padding: 17px 60px !important;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: 100%;
+    
+    
+}
+
+
+
+
+.spotlight-link{
+    background-color: #552854;
+    color: #fff;
+    border-bottom: 1px solid #552854;
+}
+
+
+.nav-link:hover{
+    background-color:#FEA502;
+    border-bottom: 1px solid #FEA502;
+    color: #fff;
+    transition: 0.25s;
+}
+
+.spotlight-link:hover{
+    background-color:#DD549A;
+    border-bottom: 1px solid #DD549A;
+    color: #fff;
+    transition: 0.25s;
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        padding: 17px 30px !important; 
+        border-left: none; 
+        background-color:#fff;
+        border-top: 1px solid #552854;
+        text-align: center; 
+    }
+
+    .spotlight-link{
+        background-color: #552854;
+        color: #fff;
+        border-bottom: 1px solid #552854;
+    }
+
+}

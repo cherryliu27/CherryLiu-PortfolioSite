@@ -1,0 +1,50 @@
+.skills-container{
+    background-color: #F6EAF0;
+    padding-bottom: 60px;
+}
+
+
+.skills h2{
+    font-size: 50px;
+    color: #552854;
+    text-align: center;
+    padding-top: 60px;
+
+  }
+
+.skills-desc{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-top: 14px;
+    text-align:center;
+    color: #494949;
+    margin-bottom: 20px;
+}
+
+
+.skill-icon{
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height:65px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-name{
+    text-align: center;
+    margin-top: 10px; 
+}
+
+.skills-collection{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 35px;
+    align-items: baseline; 
+}
