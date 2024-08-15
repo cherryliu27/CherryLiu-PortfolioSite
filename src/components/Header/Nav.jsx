@@ -8,19 +8,23 @@ import { useEffect, useRef } from 'react';
 export default function Nav() {
   const location = useLocation();
   const collapseRef = useRef(null); 
+
+   // Effect to handle smooth scrolling to the "works" section if the URL hash is "#works"
   useEffect(() => {
     if (location.hash === "#works") {
       const worksSection = document.getElementById("works");
       if (worksSection) {
         setTimeout(() => {
           worksSection.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start' 
+            behavior: 'smooth', // Smooth scroll animation
+            block: 'start' //To align section to top of page
           });
-        }, 250); 
+        }, 250); //Delay scroll to allow window to finish loading (wait for images to load)
       }
     }
   }, [location]);
+
+    // Function to handle link clicks and hide the collapse menu when browser is at a minimized window
   const handleLinkClick = () => {
     if (collapseRef.current) {
       const bsCollapse = new window.bootstrap.Collapse(collapseRef.current, {

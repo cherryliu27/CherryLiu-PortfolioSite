@@ -6,14 +6,16 @@ import "../index.css"
 
 
 export default function Project(){
-    const {id} = useParams();
-    const [projectData, setProjectData]= useState({});
+    const {id} = useParams(); // Extract the project ID from URL using useParams
+    const [projectData, setProjectData]= useState({}); // State to store the fetched project data
 
+    // useEffect to fetch project data from the API by project ID (projects collection from portfolio database) 
     useEffect(() => {
         const getProjectData = async ()=>{
+            // Fetch project data from the API using the project ID
             let response = await fetch(`https://http-5222-portfolio-api.vercel.app/api/projects/${id}`);
             let data = await response.json();
-            setProjectData(data);
+            setProjectData(data); // Update the state with the fetched data
             window.scrollTo(0, 0); // Immediately scroll to the top
             console.log(data);
         

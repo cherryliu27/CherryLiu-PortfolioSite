@@ -94,6 +94,9 @@ footer h2{
     line-height: 25px;
 }
 
+
+/* MEDIA QUERIES */
+
 @media (max-width:890px){
     form{
         display: flex;
