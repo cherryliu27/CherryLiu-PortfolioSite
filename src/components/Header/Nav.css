@@ -17,6 +17,19 @@ nav{
     font-family: "Abril Fatface", serif;
 }
 
+.navbar-toggler{
+    margin-right: 20px;
+    border-color: transparent;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none; 
+
+}
+
+
+
 .navbar-brand, .navbar-brand:visited{
     color: #552854;
     font-weight: 400;
