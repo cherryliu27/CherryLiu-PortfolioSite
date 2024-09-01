@@ -94,6 +94,21 @@ footer h2{
     line-height: 25px;
 }
 
+/* TEMPORARY CHANGES */
+.contact-info {
+    margin-top: -30px;
+    text-align:center;
+}
+
+.contact-info p a, .contact-info p:visited {
+    color:white;
+    text-decoration: none;
+}
+
+.contact-info p a:hover{
+    color:#DD549A;
+    text-decoration: underline;
+}
 
 /* MEDIA QUERIES */
 

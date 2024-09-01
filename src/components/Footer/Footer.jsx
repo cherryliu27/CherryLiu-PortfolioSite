@@ -10,12 +10,12 @@ export default function Footer(){
                     <div className="form-info" id="contact">
                         <h2 class="contact-title">LET'S TALK!</h2>
                         <div className="contact-info">
-                            <p>Email: cherryliu1227@gmail.com</p>
+                        <p>Email: <a href="mailto:cherryliu1227@gmail.com">cherryliu1227@gmail.com</a></p>
                             <p>Phone: +1 (647) 233-2456</p>
-                            <p>Github: https://github.com/cherryliu27</p>
+                            <p>Github: <a href="https://github.com/cherryliu27" target="_blank" rel="noopener noreferrer">https://github.com/cherryliu27</a></p>
                         </div>
                     </div>
-                    <div className="form-user">
+                    {/* <div className="form-user">
                         <div className="field-group">
                             <label htmlFor="name">Name:</label>
                             <input type="text" placeholder="Eg. Emily Thompson"/>
@@ -30,7 +30,7 @@ export default function Footer(){
                         </div>
                         <button className="contact-btn" type="submit">Contact Me</button>
 
-                    </div>
+                    </div> */}
                 </form>
             </div>
         </footer>

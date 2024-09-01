@@ -18,8 +18,7 @@ export default function Hero(){
                 </div>
                 <div className="hero-connect">
                     <div className="btn-hire"><a href="#contact"><strong>Hire Me</strong></a></div>
-                    <div className="btn-cv"><a href=""><strong>My CV</strong></a></div>
-                </div>
+                    <div className="btn-cv"><a href="/Cherry_LiuCheukYing_CV.pdf" download><strong>My CV</strong></a></div>                </div>
             </div>
             <div className="hero-image">
                 <div className="hero-img-container">
